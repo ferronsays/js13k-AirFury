@@ -5,11 +5,11 @@ Take to the skies in Air Fury, a dog-fighting and ship bombing shoot-em-up where
 This is an an entry for the 2014 [js13kGames](http://js13kgames.com) competition.
 
 ##Instructions##
-**Move Forward:** W or Up
+**Move Forward:** W or Up  
 **Turn:** A or Left and D or Right  
 **Fire:** Space  
-**Focus (Slow-motion):** Shift 
-**Pause:** P
+**Focus (Slow-motion):** Shift  
+**Pause:** P  
 
 Stay in bounds and out of the water to blast enemy planes and ships. Hold shift to trigger Focus, and slow down time to destroy the enemies.  If you take damage, stop shooting to repair your aircraft. Good luck!
 
