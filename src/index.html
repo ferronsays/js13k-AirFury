@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+    <title>Air Fury</title>
+    <!-- build:css assets/styles/screen.css -->
+    <link rel="stylesheet" media="screen, projection" href="assets/styles/screen.css" />
+    <!-- endbuild -->
+</head>
+
+<body>
+    <div id="w">
+        <div id="ldng">LOADING</div>
+        <div id="ss">
+            <div id="title">AIR FURY</div>
+            <div id="instr">
+                PRESS W or UP
+            </div>
+        </div>
+        <div id="pz">
+            <div>||</div>
+        </div>
+        <div id="gmo">
+            <div>
+                <div style="font-size: 72px">GAME OVER</div>
+                <div id="fscore"></div>
+                <div id="hscore">Highscore!</div>
+                <br/>
+                <div>PRESS W or UP TO REPLAY</div>
+            </div>
+        </div>
+        <div id="hud">
+            <div id="score"></div>
+            <div id="hp"></div>
+            <div id="power"></div>
+        </div>
+        <canvas id="g"></canvas>
+        <canvas id="h2o"></canvas>
+    </div>
+    <div id="w1">
+        <div style="font-family: Helvetica">
+            <h2>CONTROLS:</h2>
+            W or Up to move forward. A or Left and D or Right to turn. Space to shoot. Shift to use Focus, your slow-motion power. Stop shooting to repair. Press P to toggle pause.
+        </div>
+        <br/>
+        <div style="text-align: center; font-size: 12px; font-family: Helvetica">CREATED BY <a href="http://goo.gl/DHiQ0h">@FERRONSAYS</a>. INSPIRED BY <a href="http://goo.gl/IuybCe">@VLAMBEER</a>'S LUFTRAUSERS</div>
+    </div>
+
+    <!-- build:js assets/scripts/main.js -->
+    <script src="assets/scripts/core/jsfxr.js"></script>
+    <script src="assets/scripts/core/Class.js"></script>
+    <script src="assets/scripts/core/V2.js"></script>
+    <script src="assets/scripts/core/Camera.js"></script>
+    <script src="assets/scripts/core/GameNode.js"></script>
+    <script src="assets/scripts/core/Audio.js"></script>
+    <script src="assets/scripts/controllers/InputCtrl.js"></script>
+    <script src="assets/scripts/controllers/SpawnCtrl.js"></script>
+    <script src="assets/scripts/controllers/MigCtrl.js"></script>
+    <script src="assets/scripts/controllers/ShipCtrl.js"></script>
+    <script src="assets/scripts/collisions/Collisions.js"></script>
+    <script src="assets/scripts/collisions/Body.js"></script>
+    <script src="assets/scripts/entities/Background.js"></script>
+    <script src="assets/scripts/entities/GameObject.js"></script>
+    <script src="assets/scripts/entities/Sprite.js"></script>
+    <script src="assets/scripts/entities/Bullet.js"></script>
+    <script src="assets/scripts/entities/Ocean.js"></script>
+    <script src="assets/scripts/ai/Behavior.js"></script>
+    <script src="assets/scripts/ai/ChaseBehavior.js"></script>
+    <script src="assets/scripts/ai/EvadeBehavior.js"></script>
+    <script src="assets/scripts/ai/MaydayBehavior.js"></script>
+    <script src="assets/scripts/entities/Particle.js"></script>
+    <script src="assets/scripts/entities/Emitter.js"></script>
+    <script src="assets/scripts/entities/Plane.js"></script>
+    <script src="assets/scripts/entities/Player.js"></script>
+    <script src="assets/scripts/entities/Turret.js"></script>
+    <script src="assets/scripts/entities/Ship.js"></script>
+    <script src="assets/scripts/app.js"></script>
+    <script src="assets/scripts/main.js"></script>
+    <!-- endbuild -->
+</body>
+
+</html>
