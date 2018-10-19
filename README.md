@@ -2,7 +2,7 @@
 
 Take to the skies in Air Fury, a dog-fighting and ship bombing shoot-em-up where you must fight wave after wave of enemies to beat your high score.
 
-This is an an entry for the 2014 [js13kGames](http://js13kgames.com) competition. The game concept is inspired by LUFTRAUSERS, by [Vlambeer](http://twitter.com/vlambeer).
+This is an entry for the 2014 [js13kGames](http://js13kgames.com) competition. The game concept is inspired by LUFTRAUSERS, by [Vlambeer](http://twitter.com/vlambeer).
 
 ##Instructions
 **Move Forward:** W or Up  
